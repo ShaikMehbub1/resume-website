@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Sections */
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form */
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
